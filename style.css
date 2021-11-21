@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+img {
+	width: inherit;
+	height: inherit;
+}
+
+/* things for the header */
+.header {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	align-content: center;
+	color: #F9FAF8;
+	background-color: #1F2937;
+	padding: 0 2em 2em 0em;
+	max-height: 60px;
+	position: sticky;
+	top: 0;
+	border-bottom: paleturquoise solid 3px;
+}
+.headerlinks {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	align-self: center;
+	gap: 1em;
+}
+
+.headerlinks li a {
+	text-decoration: inherit;
+	color: inherit;
+	font-size: medium;
+	font-weight: 700;
+	padding: 1em 0;
+}
+.logoimage {
+	height: 100%;
+}
+
+/* section one stuff */
+.section1 {
+	display: flex;
+	background-color: navy;
+	align-items: center;
+	justify-content: center;
+	padding: 0 2em 3em 2em;
+}
+.one-a {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.title {
+	color: floralwhite;
+	font-size: xx-large;
+	font-weight: 700;
+}
+.subtitle {
+	color: floralwhite;
+	font-size: medium;
+	font-weight: lighter;
+	margin: 1em 0;
+}
+button {
+	color: linen;
+	font-size: large;
+	background-color: rgb(55, 126, 170);
+	text-align: center;
+	padding: 4px 30px;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 600px;
+}
+
+/* section two stuff */
+.section2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2em 0;
+	padding: 0 2em
+}
+.header2 {
+	font-size: xx-large;
+	font-weight: 900;
+}
+.cards {
+	display: flex;
+	margin: 1em 3em;
+}
+.captionedimage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 1em;
+}
+.cardpic {
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding: 0;
+	margin: 0;
+}
+img {
+	width: 100%;
+}
+
+/* section three stuff */
+.section3 {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	justify-items: center;
+	padding: 5em;
+}
+.quote {
+	font-size: x-large;
+	font-style: italic;
+}
+.attribution {
+	font-weight: 700;
+	padding-right: 35px;
+	align-self: flex-end;
+}
+
+/* section four things  */
+.section4 {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	background-color: mediumblue;
+	margin: 2em 3em;
+	padding: 2em 5em;
+	border-radius: 10px;
+}
+.actionbox {
+	display: flex;
+	flex-direction: column;
+}
+.actiontitle {
+	font-size: larger;
+	color: oldlace;
+	font-weight: bold;
+}
+.actionsubtitle {
+	font-size: medium;
+	font-weight: normal;
+	color: thistle;
+}
+
+/* footer stuff here */
+.footer {
+	display: flex;
+	background-color: navy;
+	justify-content: center;
+	color: rgb(141, 147, 158);
+}
