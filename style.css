@@ -43,6 +43,9 @@ img {
 	font-weight: 700;
 	padding: 1em 0;
 }
+a:hover {
+	color: lightblue;
+}
 .logoimage {
 	padding: 5px 0 0 5px;
 	height: 100%;
