@@ -5,8 +5,7 @@ body {
 	font-family: Roboto, sans-serif;
 	display: flex;
 	flex-direction: column;
-	flex: 1;
-    width: 100--vw;
+	width: 100--vw;
     position: relative;
     overflow: auto;
 }
@@ -25,13 +24,14 @@ img {
 	color: #F9FAF8;
 	background-color: #1F2937;
     max-height: 75px;
-    width: 100%;
+    width: 100--vw;
 	top: 0;
-    border: 10px solid red;
+    border: 4px solid red;
 	border-bottom: paleturquoise solid 3px;
 }
 .headerlinks {
 	display: flex;
+    flex-grow: 1;
     flex-shrink: 1;
 	justify-content: flex-start;
    	list-style-type: none;
@@ -53,6 +53,7 @@ img {
 	color: rgb(116, 178, 230);
 }
 .logoimage {
+    flex-grow: 0;
 	padding: 5px 0 0 5px;
     margin-right: -120px;
 	height: 65px;
