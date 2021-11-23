@@ -219,3 +219,16 @@ button:hover {
 	justify-content: center;
 	color: rgb(141, 147, 158);
 }
+
+.pettitle {
+	display: block;
+	font-size: x-large;
+	justify-self: center;
+}
+.pettableimage img {
+	max-width: 100vw;
+	height: auto;
+}
+.pettableimage img:hover {
+	cursor: url('./hand.png'), auto;	
+}
