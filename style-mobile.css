@@ -64,7 +64,7 @@ img {
 .section1 {
 	display: flex;
     flex-shrink: 1;
-    width: 100vw;
+    width: 100--vw;
 	background-color: #1F2937;
 	align-items: center;
 	justify-content: center;
@@ -112,7 +112,7 @@ button:hover {
 .section2 {
     display: flex;
     flex-shrink: 1;
-    width: 100vw;
+    width: 100--vw;
 	flex-direction: column;
 	align-items: center;
 	margin: 2em 0;
